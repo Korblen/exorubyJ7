@@ -1,10 +1,10 @@
-liste_email = ["jean.micheldu01@gmail.com"]
+liste_email = ["jean.micheldu.01@gmail.com"]
 
 for i in 2..50
     if i < 10
-        liste_email.append("jean.micheldu0#{i}@gmail.com")
+        liste_email.append("jean.micheldu.0#{i}@email.com")
     else
-        liste_email.append("jean.micheldu#{i}@gmail.com")
+        liste_email.append("jean.micheldu.#{i}@email.com")
     end
 end
 

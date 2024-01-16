@@ -8,7 +8,7 @@ else
         age = i - nombre_utilisateur
         blurgule = current_year - i
         if age == blurgule
-            puts "il y'a #{blurgule} ans, tu avais la moitié de ton age !"
+            puts "il y'a #{blurgule} ans, tu avais la moitié l'âge que tu as aujourd'huis !"
         else
             if blurgule == 0
                 ajd = age - 1

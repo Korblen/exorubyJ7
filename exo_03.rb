@@ -1,3 +1,3 @@
-puts "Quel est ton âge ?"
-age_utilisateur = gets.chomp.to_i
-puts "tu avais  #{age_utilisateur - 6} ans en 2017 !"
+puts "Quel est ton année de naissance ?"
+date_naissance = gets.chomp.to_i
+puts "tu avais #{2017 - date_naissance} ans en 2017 !"
